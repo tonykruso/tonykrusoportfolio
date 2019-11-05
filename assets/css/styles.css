@@ -1,0 +1,39 @@
+body, html {
+    height:100%
+}
+
+#dive {
+    background-image: url("../images/dive-in.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    
+}
+
+#centered {
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    background-color:aqua;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
